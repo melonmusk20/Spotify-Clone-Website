@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music is for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel ="icon" type = "image" href="logo.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src ="logo.png" alt="Spotify"> Spotify </li>
+            <li><a href="https://open.spotify.com/" target="_blank" title="Orginal Website Link">Home</a></li>
+           
+            <li><a href="https://www.spotify.com/us/about-us/contact/" target="_blank" title="Orginal Website Link">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h2> Album - No Copyright Sounds</h2>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" src="covers/1.jpg" >
+                    <span class="songName">MatKar Maya Ko Ahankar</span>
+                     <span class="songlistplay"><span class="timestamp"> 06:05  <i id="0" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="2" src="covers/2.jpg"  >
+                    <span class="songName">Monta Re</span>
+                     <span class="songlistplay"><span class="timestamp"> 03:57  <i id="1" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="3" src="covers/3.jpg" >
+                    <span class="songName">Bavra Mann</span>
+                     <span class="songlistplay"><span class="timestamp"> 00:29 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="4" src="covers/4.jpg" >
+                    <span class="songName">Thunder</span>
+                     <span class="songlistplay"><span class="timestamp"> 03:07 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="5" src="covers/5.jpg" >
+                    <span class="songName">Aadmi Chutiya Hai</span>
+                     <span class="songlistplay"><span class="timestamp"> 03:30 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="6" src="covers/6.jpg" >
+                    <span class="songName">Do Din Ki Zindagi</span>
+                     <span class="songlistplay"><span class="timestamp"> 06:03  <i id="5" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="7" src="covers/7.jpg" >
+                    <span class="songName">Sathiya</span>
+                     <span class="songlistplay"><span class="timestamp"> 06:04  <i id="6" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="8" src="covers/8.jpg" >
+                    <span class="songName">Kanmani</span>
+                     <span class="songlistplay"><span class="timestamp"> 05:26  <i id="7" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="9" src="covers/9.jpg" >
+                    <span class="songName">Khoon Choos Le</span>
+                     <span class="songlistplay"><span class="timestamp"> 03:18 <i id="8" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="10" src="covers/10.jpg" >
+                    <span class="songName">Manchala</span>
+                     <span class="songlistplay"><span class="timestamp"> 03:47 <i id="9" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="11" src="covers/11.jpg" >
+                    <span class="songName">Ishq Bulaava</span>
+                     <span class="songlistplay"><span class="timestamp"> 05:03 <i id="10" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="12" src="covers/12.jpg">
+                    <span class="songName">Zehnaseeb</span>
+                     <span class="songlistplay"><span class="timestamp"> 03:37 <i id="11" class="fa-solid songItemPlay fa-circle-play"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+         <div class="icons">
+         <!--fontawesome icons-->
+         <i class="fa-solid  fa-3x fa-step-backward" id="previous"></i>
+         <i class="fa-solid  fa-3x fa-circle-play" id="masterPlay"></i>
+         <i class="fa-solid  fa-3x fa-step-forward" id="next"></i>
+        </div>
+       <div class="songInfo">
+        <img src="playing.gif" width="200px" height="50px" alt="" id="gif" style="opacity: 0;"> <span id="masterSongName">Mat Kar Maya Ko Ahankar - Song by Kabir Café ‧ 2016</span> 
+       </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3a8554e073.js" crossorigin="anonymous"></script>
+</body>
+</html>
